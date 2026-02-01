@@ -1,0 +1,13 @@
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/emfcompliance.dir
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/edit_cache.dir
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/rebuild_cache.dir
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/list_install_components.dir
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/install.dir
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/install/local.dir
+/home/josh/Skripsie/emfcompliancev1/build/CMakeFiles/install/strip.dir
+/home/josh/Skripsie/emfcompliancev1/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/home/josh/Skripsie/emfcompliancev1/build/_deps/json-build/CMakeFiles/rebuild_cache.dir
+/home/josh/Skripsie/emfcompliancev1/build/_deps/json-build/CMakeFiles/list_install_components.dir
+/home/josh/Skripsie/emfcompliancev1/build/_deps/json-build/CMakeFiles/install.dir
+/home/josh/Skripsie/emfcompliancev1/build/_deps/json-build/CMakeFiles/install/local.dir
+/home/josh/Skripsie/emfcompliancev1/build/_deps/json-build/CMakeFiles/install/strip.dir

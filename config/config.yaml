@@ -1,0 +1,54 @@
+# EMF Compliance Analysis Configuration
+name: "Sample EMF Analysis"
+
+# Calculation grid settings
+grid:
+  x_min: -100.0    # meters
+  x_max: 100.0
+  y_min: -100.0
+  y_max: 100.0
+  z_level: 1.5     # Evaluation height (typical human height)
+  resolution: 1.0  # Grid spacing in meters
+
+# Compliance standard settings
+compliance:
+  standard: "ICNIRP_2020"       # Options: ICNIRP_2020, FCC, ICASA
+  category: "general_public"    # Options: general_public, occupational
+
+# Antenna definitions
+antennas:
+  - id: "sector_1"
+    pattern_file: "isotropic"   # Use "isotropic" or path to MSI/PLN/CSV file
+    frequency_mhz: 1800.0       # Operating frequency
+    power_eirp_watts: 100.0     # EIRP in watts
+    position:
+      x: 0.0
+      y: 0.0
+      z: 30.0                   # Antenna height
+    orientation:
+      azimuth_deg: 0.0          # Pointing direction (0 = +X axis)
+      tilt_deg: -3.0            # Mechanical downtilt (negative = down)
+
+  - id: "sector_2"
+    pattern_file: "isotropic"
+    frequency_mhz: 1800.0
+    power_eirp_watts: 100.0
+    position:
+      x: 0.0
+      y: 0.0
+      z: 30.0
+    orientation:
+      azimuth_deg: 120.0
+      tilt_deg: -3.0
+
+  - id: "sector_3"
+    pattern_file: "isotropic"
+    frequency_mhz: 1800.0
+    power_eirp_watts: 100.0
+    position:
+      x: 0.0
+      y: 0.0
+      z: 30.0
+    orientation:
+      azimuth_deg: 240.0
+      tilt_deg: -3.0

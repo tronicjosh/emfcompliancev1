@@ -1,0 +1,72 @@
+# ICASA (South Africa) RF Exposure Limits
+# Based on ICNIRP guidelines with local regulatory context
+# Reference: ICASA Radio Frequency Spectrum Assignment Plan
+
+name: "ICASA"
+version: "2021"
+description: "Independent Communications Authority of South Africa - RF Exposure Guidelines"
+
+# Note: ICASA adopts ICNIRP 2020 guidelines for EMF exposure limits
+# The limits below are equivalent to ICNIRP 2020
+
+# General public exposure limits
+general_public:
+  limits:
+    # 100 kHz - 30 MHz
+    - freq_min_mhz: 0.1
+      freq_max_mhz: 30.0
+      e_field_limit: 87.0       # V/m
+      s_limit: 20.0             # W/m²
+      formula: "E = 87 V/m (ICNIRP based)"
+
+    # 30 MHz - 400 MHz
+    - freq_min_mhz: 30.0
+      freq_max_mhz: 400.0
+      e_field_limit: 28.0       # V/m
+      s_limit: 2.0              # W/m²
+      formula: "E = 28 V/m (ICNIRP based)"
+
+    # 400 MHz - 2000 MHz
+    - freq_min_mhz: 400.0
+      freq_max_mhz: 2000.0
+      e_field_limit: 61.4       # V/m (at 2000 MHz)
+      s_limit: 10.0             # W/m²
+      formula: "E = 1.375*sqrt(f) V/m (ICNIRP based)"
+
+    # 2 GHz - 300 GHz
+    - freq_min_mhz: 2000.0
+      freq_max_mhz: 300000.0
+      e_field_limit: 61.0       # V/m
+      s_limit: 10.0             # W/m²
+      formula: "E = 61 V/m (ICNIRP based)"
+
+# Occupational exposure limits
+occupational:
+  limits:
+    # 100 kHz - 30 MHz
+    - freq_min_mhz: 0.1
+      freq_max_mhz: 30.0
+      e_field_limit: 194.6      # V/m
+      s_limit: 100.0            # W/m²
+      formula: "E = 194.6 V/m (ICNIRP based)"
+
+    # 30 MHz - 400 MHz
+    - freq_min_mhz: 30.0
+      freq_max_mhz: 400.0
+      e_field_limit: 62.6       # V/m
+      s_limit: 10.0             # W/m²
+      formula: "E = 62.6 V/m (ICNIRP based)"
+
+    # 400 MHz - 2000 MHz
+    - freq_min_mhz: 400.0
+      freq_max_mhz: 2000.0
+      e_field_limit: 137.3      # V/m
+      s_limit: 50.0             # W/m²
+      formula: "E = 3.07*sqrt(f) V/m (ICNIRP based)"
+
+    # 2 GHz - 300 GHz
+    - freq_min_mhz: 2000.0
+      freq_max_mhz: 300000.0
+      e_field_limit: 137.0      # V/m
+      s_limit: 50.0             # W/m²
+      formula: "E = 137 V/m (ICNIRP based)"

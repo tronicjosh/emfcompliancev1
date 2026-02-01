@@ -1,0 +1,82 @@
+# FCC OET Bulletin 65 - RF Exposure Limits
+# Source: FCC OET Bulletin 65 (Edition 97-01)
+
+name: "FCC"
+version: "OET-65"
+description: "FCC Guidelines for Evaluating the Environmental Effects of Radiofrequency Radiation"
+
+# General population/uncontrolled exposure
+general_public:
+  limits:
+    # 0.3 - 1.34 MHz
+    - freq_min_mhz: 0.3
+      freq_max_mhz: 1.34
+      e_field_limit: 614.0      # V/m
+      s_limit: 1000.0           # W/m² (100 mW/cm²)
+      formula: "E = 614 V/m"
+
+    # 1.34 - 30 MHz (frequency dependent)
+    - freq_min_mhz: 1.34
+      freq_max_mhz: 30.0
+      e_field_limit: 711.3      # V/m (representative at 1.34 MHz)
+      s_limit: 180.0            # W/m² (at 1.34 MHz)
+      formula: "E = 824/f V/m, S = 180/f² mW/cm²"
+
+    # 30 - 300 MHz
+    - freq_min_mhz: 30.0
+      freq_max_mhz: 300.0
+      e_field_limit: 27.5       # V/m
+      s_limit: 2.0              # W/m² (0.2 mW/cm²)
+      formula: "E = 27.5 V/m"
+
+    # 300 - 1500 MHz (power density frequency dependent)
+    - freq_min_mhz: 300.0
+      freq_max_mhz: 1500.0
+      e_field_limit: 27.5       # V/m
+      s_limit: 1.0              # W/m² (at 300 MHz)
+      formula: "E = 27.5 V/m, S = f/1500 mW/cm²"
+
+    # 1500 - 100000 MHz
+    - freq_min_mhz: 1500.0
+      freq_max_mhz: 100000.0
+      e_field_limit: 61.4       # V/m
+      s_limit: 10.0             # W/m² (1.0 mW/cm²)
+      formula: "E = 61.4 V/m, S = 1.0 mW/cm²"
+
+# Occupational/controlled exposure
+occupational:
+  limits:
+    # 0.3 - 3.0 MHz
+    - freq_min_mhz: 0.3
+      freq_max_mhz: 3.0
+      e_field_limit: 614.0      # V/m
+      s_limit: 1000.0           # W/m²
+      formula: "E = 614 V/m"
+
+    # 3.0 - 30 MHz (frequency dependent)
+    - freq_min_mhz: 3.0
+      freq_max_mhz: 30.0
+      e_field_limit: 614.0      # V/m (at 3 MHz)
+      s_limit: 900.0            # W/m²
+      formula: "E = 1842/f V/m"
+
+    # 30 - 300 MHz
+    - freq_min_mhz: 30.0
+      freq_max_mhz: 300.0
+      e_field_limit: 61.4       # V/m
+      s_limit: 10.0             # W/m² (1.0 mW/cm²)
+      formula: "E = 61.4 V/m"
+
+    # 300 - 1500 MHz
+    - freq_min_mhz: 300.0
+      freq_max_mhz: 1500.0
+      e_field_limit: 61.4       # V/m
+      s_limit: 10.0             # W/m²
+      formula: "E = 61.4 V/m, S = f/300 mW/cm²"
+
+    # 1500 - 100000 MHz
+    - freq_min_mhz: 1500.0
+      freq_max_mhz: 100000.0
+      e_field_limit: 137.0      # V/m
+      s_limit: 50.0             # W/m² (5.0 mW/cm²)
+      formula: "E = 137 V/m, S = 5.0 mW/cm²"

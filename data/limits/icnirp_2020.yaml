@@ -1,0 +1,69 @@
+# ICNIRP 2020 Guidelines for RF EMF Exposure
+# Reference levels for general public exposure
+# Source: ICNIRP Guidelines (2020) - Health Physics 118(5):483-524
+
+name: "ICNIRP_2020"
+version: "2020"
+description: "ICNIRP Guidelines for Limiting Exposure to Electromagnetic Fields (100 kHz to 300 GHz)"
+
+# General public exposure limits
+general_public:
+  limits:
+    # 100 kHz - 30 MHz
+    - freq_min_mhz: 0.1
+      freq_max_mhz: 30.0
+      e_field_limit: 87.0       # V/m (constant)
+      s_limit: 20.0             # W/m²
+      formula: "E = 87 V/m"
+
+    # 30 MHz - 400 MHz
+    - freq_min_mhz: 30.0
+      freq_max_mhz: 400.0
+      e_field_limit: 28.0       # V/m (constant)
+      s_limit: 2.0              # W/m²
+      formula: "E = 28 V/m"
+
+    # 400 MHz - 2000 MHz (frequency dependent)
+    - freq_min_mhz: 400.0
+      freq_max_mhz: 2000.0
+      e_field_limit: 61.4       # V/m (representative at ~2000 MHz)
+      s_limit: 10.0             # W/m² (at 2000 MHz)
+      formula: "E = 1.375*sqrt(f) V/m, S = f/200 W/m²"
+
+    # 2 GHz - 300 GHz
+    - freq_min_mhz: 2000.0
+      freq_max_mhz: 300000.0
+      e_field_limit: 61.0       # V/m
+      s_limit: 10.0             # W/m²
+      formula: "E = 61 V/m, S = 10 W/m²"
+
+# Occupational exposure limits
+occupational:
+  limits:
+    # 100 kHz - 30 MHz
+    - freq_min_mhz: 0.1
+      freq_max_mhz: 30.0
+      e_field_limit: 194.6      # V/m
+      s_limit: 100.0            # W/m²
+      formula: "E = 194.6 V/m"
+
+    # 30 MHz - 400 MHz
+    - freq_min_mhz: 30.0
+      freq_max_mhz: 400.0
+      e_field_limit: 62.6       # V/m
+      s_limit: 10.0             # W/m²
+      formula: "E = 62.6 V/m"
+
+    # 400 MHz - 2000 MHz (frequency dependent)
+    - freq_min_mhz: 400.0
+      freq_max_mhz: 2000.0
+      e_field_limit: 137.3      # V/m (representative at ~2000 MHz)
+      s_limit: 50.0             # W/m²
+      formula: "E = 3.07*sqrt(f) V/m, S = f/40 W/m²"
+
+    # 2 GHz - 300 GHz
+    - freq_min_mhz: 2000.0
+      freq_max_mhz: 300000.0
+      e_field_limit: 137.0      # V/m
+      s_limit: 50.0             # W/m²
+      formula: "E = 137 V/m, S = 50 W/m²"

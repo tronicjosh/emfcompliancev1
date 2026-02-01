@@ -1,0 +1,75 @@
+{
+  "antennas": [
+    {
+      "frequency_mhz": 1800.0,
+      "id": "sector_1",
+      "orientation": {
+        "azimuth_deg": 0.0,
+        "tilt_deg": -3.0
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 30.0
+      },
+      "power_eirp_watts": 100.0
+    },
+    {
+      "frequency_mhz": 1800.0,
+      "id": "sector_2",
+      "orientation": {
+        "azimuth_deg": 120.0,
+        "tilt_deg": -3.0
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 30.0
+      },
+      "power_eirp_watts": 100.0
+    },
+    {
+      "frequency_mhz": 1800.0,
+      "id": "sector_3",
+      "orientation": {
+        "azimuth_deg": 240.0,
+        "tilt_deg": -3.0
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 30.0
+      },
+      "power_eirp_watts": 100.0
+    }
+  ],
+  "compliance_boundaries": {
+    "sector_1": 1.0,
+    "sector_2": 1.0,
+    "sector_3": 1.0
+  },
+  "grid": {
+    "bounds": {
+      "x_max": 100.0,
+      "x_min": -100.0,
+      "y_max": 100.0,
+      "y_min": -100.0
+    },
+    "resolution": 1.0,
+    "total_points": 40401,
+    "z_level": 1.5
+  },
+  "metadata": {
+    "category": "general_public",
+    "simulation_name": "Sample EMF Analysis",
+    "standard": "ICNIRP_2020"
+  },
+  "summary": {
+    "compliant_points": 40401,
+    "marginal_points": 0,
+    "max_field_value_v_m": 3.328752536997296,
+    "max_percentage_of_limit": 5.706141798309605,
+    "non_compliant_points": 0,
+    "overall_compliant": true
+  }
+}

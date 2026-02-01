@@ -1,0 +1,16 @@
+# C++ build artifacts
+build/
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Output files
+*.csv
+*.json
+
+# Editor / OS
+.vscode/
+.DS_Store
+

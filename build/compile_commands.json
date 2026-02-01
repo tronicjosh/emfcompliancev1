@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/Vector3.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/Vector3.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/Vector3.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/Vector3.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/RadiationPattern.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/RadiationPattern.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/RadiationPattern.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/RadiationPattern.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/Antenna.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/Antenna.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/Antenna.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/Antenna.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/Grid.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/Grid.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/Grid.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/Grid.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/FieldSolver.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/FieldSolver.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/FieldSolver.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/FieldSolver.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/Compliance.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/Compliance.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/Compliance.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/Compliance.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/ConfigLoader.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/ConfigLoader.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/ConfigLoader.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/ConfigLoader.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/OutputWriter.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/OutputWriter.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/OutputWriter.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/OutputWriter.cpp.o"
+},
+{
+  "directory": "/home/josh/Skripsie/emfcompliancev1/build",
+  "command": "/usr/bin/c++  -I/home/josh/Skripsie/emfcompliancev1/include -I/home/josh/Skripsie/emfcompliancev1/build/_deps/json-src/include -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/emfcompliance.dir/src/main.cpp.o -c /home/josh/Skripsie/emfcompliancev1/src/main.cpp",
+  "file": "/home/josh/Skripsie/emfcompliancev1/src/main.cpp",
+  "output": "CMakeFiles/emfcompliance.dir/src/main.cpp.o"
+}
+]
