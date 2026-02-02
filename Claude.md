@@ -551,3 +551,25 @@ All inputs must be traceable and reproducible
 UI must prevent physically invalid configurations where possible
 
 Emphasis on interpretability over visual flair
+
+UI flow:
+Frontend (Streamlit)
+  └── user defines EVERYTHING:
+        - antennas
+        - powers / EIRP
+        - positions
+        - grid size
+        - evaluation height
+        - standard
+
+Backend (C++)
+  └── receives a config
+  └── runs the physics
+  └── outputs:
+        - results.csv
+        - report.json
+
+Frontend
+  └── reads outputs
+  └── visualises
+  └── allows download
